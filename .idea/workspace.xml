@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1334855d-48a8-4cb9-b0fd-7ec74510ffdf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/bouzinab/scala/oop/commands/CreateEntry.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bouzinab/scala/oop/commands/Pwd.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bouzinab/scala/oop/commands/Touch.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bouzinab/scala/oop/files/File.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bouzinab/scala/oop/filesystem/FilesystemException.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bouzinab/scala/oop/commands/Cd.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bouzinab/scala/oop/commands/Command.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bouzinab/scala/oop/commands/Command.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bouzinab/scala/oop/commands/Mkdir.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bouzinab/scala/oop/commands/Mkdir.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bouzinab/scala/oop/files/DirEntry.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bouzinab/scala/oop/files/DirEntry.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bouzinab/scala/oop/files/Directory.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bouzinab/scala/oop/files/Directory.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bouzinab/scala/oop/files/File.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bouzinab/scala/oop/files/File.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
