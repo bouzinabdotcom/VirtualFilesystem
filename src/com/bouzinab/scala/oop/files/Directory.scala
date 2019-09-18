@@ -1,7 +1,6 @@
 package com.bouzinab.scala.oop.files
 
 import com.bouzinab.scala.oop.filesystem.FilesystemException
-import javax.swing.JPopupMenu.Separator
 
 import scala.annotation.tailrec
 
@@ -16,6 +15,17 @@ class Directory(override val parentPath: String,override val name: String, val c
   def findDescendant(path: List[String]): Directory =
     if(path.isEmpty) this
     else findEntry(path.head).asDirectory.findDescendant(path.tail)
+
+
+  def findDescendant(relativePath: String): Directory =
+    if(relativePath.isEmpty) this
+    else findDescendant(relativePath.split(Directory.SEPARATOR).toList)
+
+
+  def removeEntry(entryName: String): Directory =
+    if(!hasEntry(entryName)) this
+    else new Directory(parentPath, name, contents.filter(x => !x.name.equals(entryName)))
+
 
   def addEntry(newEntry: DirEntry): Directory =
     new Directory(path, name, contents :+ newEntry)
